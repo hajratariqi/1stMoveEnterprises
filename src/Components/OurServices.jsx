@@ -9,8 +9,8 @@ const OurServices = ({id}) => {
 
         <div className='md:w-2/5'>
             <h1 className='font-merriweather text-center md:text-start font-bold  text-3xl md:text-4xl '>Our Services</h1>
-            <p className=' my-4 text-gray-600 text-center md:text-start font-semibold font-poppins'>“It’s not important if you have millions of customers trying your services for one time only, the thing that makes the difference is thousands of customers using your products amillion time and still a million more”</p>
-            <p className='text-gray-600 text-center md:text-start text-sm'>1st Move Enterprises, a prominent player in Pakistan's distribution landscape,
+            <p className='my-4 text-gray-600 text-center md:text-start font-semibold font-poppins'>“It’s not important if you have millions of customers trying your services for one time only, the thing that makes the difference is thousands of customers using your products amillion time and still a million more”</p>
+            <p className='!leading-relaxed text-gray-600 text-center md:text-start text-sm'>1st Move Enterprises, a prominent player in Pakistan's distribution landscape,
                             At 1st Move Enterprises, we pride ourselves on
                 offering a comprehensive range of services
                 catering to diverse consumer needs. Our portfolio
