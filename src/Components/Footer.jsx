@@ -7,11 +7,11 @@ const Footer = () => {
   return (
     <div>
         <div className="container mx-auto p-6">
-            <div className="flex items-center justify-between gap-10">
+            <div className="flex md:flex-row flex-col  items-center justify-between gap-10">
                 <div>
                     <img src='https://framerusercontent.com/images/lg5HFPHgvIKQh0U35IwOnv5uqI.png' alt="logo" className='w-52' />
                 </div>
-                <div className='flex gap-5 text-sm'>
+                <div className='flex flex-wrap gap-5 justify-center'>
                         <Link to='/home'>Home</Link>
                         <Link to='/about'>About</Link>
                         <Link to='/MissonVisson'>Misson & Vission</Link>
@@ -20,7 +20,7 @@ const Footer = () => {
                         <Link to='/privacy'>Privacy</Link>
                 </div>
 
-            <div className='flex gap-5'>
+            <div className='flex flex-wrap gap-5'>
                 <Link className='p-2 rounded-full bg-black text-white' to="https://www.facebook.com" target="_blank">
                     <FaFacebook size={20} />
                 </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
 
             </div>
         </div>
-        <div className='border-t p-7 text-center '>
+        <div className='border-t p-7 text-center text-gray-600'>
             1stmoveenterprises - © 2024 All Rights Reserved
             <p className='text-sm font-normal mt-2'>made by ahmedrAshraf team</p>
         </div>
