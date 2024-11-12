@@ -10,7 +10,7 @@ const About = ({id}) => {
         <div className='md:w-2/5'>
             <h1 className='font-merriweather text-center md:text-start font-bold  text-3xl md:text-4xl '>About 1st Move Enterprises</h1>
             <p className=' my-4 text-gray-600 text-center md:text-start font-semibold font-poppins'>One of the leading distributors of Pakistan dealing general goods, cosmetics, herbal products, garments and textiles good, mobile phones and vehicles.</p>
-            <p className='text-gray-600 text-center md:text-start text-sm'>1st Move Enterprises, a prominent player in Pakistan's distribution landscape,
+            <p className='text-gray-600 text-center !leading-normal md:text-start text-sm'>1st Move Enterprises, a prominent player in Pakistan's distribution landscape,
                 stands out for its comprehensive range of offerings. From general goods to
                 cosmetics, herbal products, garments, textiles, mobile phones, and vehicles, we
                 cater to diverse consumer needs. Our commitment to excellence is evident in our
