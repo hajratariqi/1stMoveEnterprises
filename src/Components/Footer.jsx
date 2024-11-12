@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
         <div className='border-t p-7 text-center text-gray-600'>
             1stmoveenterprises - © 2024 All Rights Reserved
-            <p className='text-sm font-normal mt-2'>made by ahmedrAshraf team</p>
+            {/* <p className='text-sm font-normal mt-2'>made by ahmedrAshraf team</p> */}
         </div>
     </div>
   )

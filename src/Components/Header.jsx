@@ -31,7 +31,8 @@ const Header = () => {
     <div className='px-8 items-center w-full h-24 md:sticky top-0 bg-white z-50 border'>
         <div className="container flex justify-between items-center h-full mx-auto">
         <div className='flex items-center'>
-            <img src='https://framerusercontent.com/images/lg5HFPHgvIKQh0U35IwOnv5uqI.png' alt="Logo" className='w-56 h-auto ' />
+          <img src={Logo} alt="Logo" className='w-44 h-auto ' />
+            {/* <img src='https://framerusercontent.com/images/lg5HFPHgvIKQh0U35IwOnv5uqI.png' alt="Logo" className='w-56 h-auto ' /> */}
         </div>
 
         <div className='text-4xl cursor-pointer md:hidden z-20' onClick={() => setOpen(!open)}>
