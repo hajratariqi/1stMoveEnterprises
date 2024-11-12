@@ -37,7 +37,11 @@ const ContactUs = () => {
                     <p className='text-sm text-gray-600'>We'd love to hear from you. Please fill out this form.</p>
                     <input type="text" name="name" className='block border w-full mt-5 p-3 bg-white placeholder:text-black rounded-xl' placeholder='Your Name'/>
                     <input type="email" name="email" className='block border w-full mt-5 p-3 bg-white placeholder:text-black rounded-xl' placeholder='Your Email'/>
-                    <textarea name="yourMessage" className='block border w-full mt-5 p-3 bg-white -xl'>Your Message</textarea>
+                    <textarea name="yourMessage" className='block border w-full mt-5 p-3 bg-white rounded-xl'>Your Message</textarea>
+                    <button className="w-full p-3 bg-black text-white mt-5 rounded-xl">
+                        <a href="mailto:1stmoveenterprises@gmail.com" target="_blank" className="block w-full text-center">Send Message</a>
+                    </button>
+
                 </div>
             <div className='md:w-2/5 mx-auto'>
                 <h1 className='text-xl font-bold'>Get in Touch</h1>
