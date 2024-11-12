@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='container p-6 mx-auto my-20 flex gap-5 flex-col md:flex-row justify-between items-center'>
+    <div className='container p-6 mx-auto my-20 flex gap-5 flex-col-reverse md:flex-row justify-between items-center'>
         <div className='md:w-2/4'>
             <img src="https://bluebuilding.es/wp-content/uploads/2014/10/IMG20210520194900-Grande.jpg" alt="about image" className='rounded-md' />
         </div>
