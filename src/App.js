@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-<div className='p-5 bg-red-500'>
+<div>
   <BrowserRouter>
       <Header/>
       <Routes>
