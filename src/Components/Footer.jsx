@@ -6,8 +6,8 @@ import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from 'react-icons/fa';
 const Footer = () => {
   return (
     <div>
-        <div className="container mx-auto p-6">
-            <div className="flex md:flex-row flex-col  items-center justify-between gap-10">
+        <div className="container mx-auto">
+            <div className="flex md:flex-row flex-col  items-center mb-5 justify-between gap-10">
                 <div>
                     <img src='https://framerusercontent.com/images/lg5HFPHgvIKQh0U35IwOnv5uqI.png' alt="logo" className='w-52' />
                 </div>

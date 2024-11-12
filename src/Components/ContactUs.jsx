@@ -27,13 +27,13 @@ const ContactUs = ({id}) => {
 
   return (
 <div id={id} className='my-20'>
-    <div className='container mx-auto p-6'>
+    <div className='container mx-auto'>
             <h1 className='font-merriweather text-center font-bold  text-3xl md:text-4xl '>We'd love to hear from you </h1>
-            <p className='text-gray-600 text-center max-w-xs mx-auto mt-4'>We appreciate your trust in us. Your satisfaction is our top priority.</p>
+            <p className='text-gray-600 text-center md:max-w-xs mx-auto mt-4'>We appreciate your trust in us. Your satisfaction is our top priority.</p>
 
-            <div className="flex md:flex-row flex-col gap-5 justify-center mt-10">
-                <div className='md:w-2/4 bg-gray-50 p-6 py-10'>
-                    <h2 className='text-xl font-bold'>Contact Us</h2>
+            <div className="flex md:flex-row flex-col gap-5 justify-center mt-10 p-6">
+                <div className='md:w-2/4 bg-gray-50 md:p-6 py-10'>
+                    <h2 className='text-2xl font-semibold mb-2'>Contact Us</h2>
                     <p className='text-sm text-gray-600'>We'd love to hear from you. Please fill out this form.</p>
                     <input type="text" name="name" className='block border w-full mt-5 p-3 bg-white placeholder:text-black rounded-xl' placeholder='Your Name'/>
                     <input type="email" name="email" className='block border w-full mt-5 p-3 bg-white placeholder:text-black rounded-xl' placeholder='Your Email'/>
@@ -43,12 +43,12 @@ const ContactUs = ({id}) => {
                     </button>
 
                 </div>
-            <div className='md:w-2/5 mx-auto'>
-                <h1 className='text-xl font-bold'>Get in Touch</h1>
+            <div className='md:w-2/5 mx-auto p-6'>
+                <h1 className='text-2xl font-semibold mb-2'>Get in Touch</h1>
                 <p className='text-gray-600 text-sm'>You can also reach us using the following contact information:</p>
                 {contactInfo.map((info, index)=>(
-                    <div key={index} className='shadow-md rounded-md p-6 flex gap-5 items-center mt-5'>
-                        <div className='p-3 bg-gray-100 text-xl'>{info.icon}</div>
+                    <div key={index} className='shadow-md rounded-md py-3 p-2 flex gap-5 items-center mt-5'>
+                        <div className='p-3 bg-black text-xl text-white rounded-full'>{info.icon}</div>
                         <div>
                             <a href={info.path} target='_black'>
                                 <h3 className='font-medium'>{info.contactName}</h3>
