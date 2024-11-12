@@ -27,11 +27,26 @@ const Header = () => {
         { name: 'Contact Us', path: '/contactUs' }
       ];
   return (
-    <div className='px-8 items-center w-full h-20 sticky top-0 bg-white z-50 shadow-sm'>
-        <div className="container flex justify-between items-center h-full  mx-auto">
+    <div className='px-8 items-center w-full h-20 sticky top-0 bg-white z-50'>
+        <div className="container flex justify-between items-center h-full mx-auto">
         <div className='flex items-center'>
-            <img src={Logo} alt="Logo" className='w-40 h-auto object-cover' />
+            <img src='https://framerusercontent.com/images/lg5HFPHgvIKQh0U35IwOnv5uqI.png' alt="Logo" className='w-56 h-auto ' />
         </div>
+
+        <div className='text-4xl cursor-pointer md:hidden z-20' onClick={() => setOpen(!open)}>
+        {open ? <IoCloseSharp /> : <IoIosMenu />}
+        </div>
+
+        <ul className='hidden md:flex space-x-8 font-poppins text-lg'>
+        {navItems.map(item => (
+          <li key={item.path} className='font-medium'>
+            <Link to={item.path}  onClick={() => window.scrollTo(0, 0)} className={`py-2 transition-all ${location.pathname === item.path ? 'bg-black px-4 rounded-sm text-white' : 'hover:text-gray-500-500'}`}>
+              {item.name}
+            </Link>
+          </li>
+        ))}
+      </ul>
+
         </div>
     </div>
   )
