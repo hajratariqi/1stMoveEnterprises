@@ -3,8 +3,8 @@ import React from 'react'
 const OurServices = () => {
   return (
          <div className='container p-6 mx-auto my-20 flex gap-5 flex-col-reverse md:flex-row justify-between items-center'>
-        <div className='md:w-2/4'>
-            <img src="https://bluebuilding.es/wp-content/uploads/2014/10/IMG20210520194900-Grande.jpg" alt="about image" className='rounded-md' />
+        <div className='md:w-2/4 h-[600px]'>
+            <img src="https://www.captivatingthinking.com/wp-content/uploads/2023/07/iStock-1454531939-1024x612.jpg" alt="about image" className='rounded-md h-full w-full object-cover' />
         </div>
 
         <div className='md:w-2/5'>
