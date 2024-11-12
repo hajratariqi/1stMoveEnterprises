@@ -47,12 +47,11 @@ const ContactUs = ({id}) => {
                 <h1 className='text-xl font-bold'>Get in Touch</h1>
                 <p className='text-gray-600 text-sm'>You can also reach us using the following contact information:</p>
                 {contactInfo.map((info, index)=>(
-                    <div key={index} className='shadow-sm p-6 flex gap-2 items-center mt-5'>
+                    <div key={index} className='shadow-md rounded-md p-6 flex gap-5 items-center mt-5'>
                         <div className='p-3 bg-gray-100 text-xl'>{info.icon}</div>
-
                         <div>
                             <a href={info.path} target='_black'>
-                                <h3>{info.contactName}</h3>
+                                <h3 className='font-medium'>{info.contactName}</h3>
                                 <p>{info.link}</p>
                             </a>
                         </div>
