@@ -2,15 +2,15 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='container mx-auto my-20 flex flex-col md:flex-row justify-between items-center'>
+    <div className='container p-6 mx-auto my-20 flex gap-5 flex-col md:flex-row justify-between items-center'>
         <div className='md:w-2/4'>
             <img src="https://bluebuilding.es/wp-content/uploads/2014/10/IMG20210520194900-Grande.jpg" alt="about image" className='rounded-md' />
         </div>
 
         <div className='md:w-2/5'>
-            <h1 className='font-merriweather font-bold  text-3xl md:text-4xl '>About 1st Move Enterprises</h1>
-            <p className='text-lg my-7 font-semibold font-poppins'>One of the leading distributors of Pakistan dealing general goods, cosmetics, herbal products, garments and textiles good, mobile phones and vehicles.</p>
-            <p className='text-gray-600 '>1st Move Enterprises, a prominent player in Pakistan's distribution landscape,
+            <h1 className='font-merriweather text-center md:text-start font-bold  text-3xl md:text-4xl '>About 1st Move Enterprises</h1>
+            <p className='md:text-lg md:my-7 text-center md:text-start my-5 font-semibold font-poppins'>One of the leading distributors of Pakistan dealing general goods, cosmetics, herbal products, garments and textiles good, mobile phones and vehicles.</p>
+            <p className='text-gray-600 text-center md:text-start'>1st Move Enterprises, a prominent player in Pakistan's distribution landscape,
                 stands out for its comprehensive range of offerings. From general goods to
                 cosmetics, herbal products, garments, textiles, mobile phones, and vehicles, we
                 cater to diverse consumer needs. Our commitment to excellence is evident in our
