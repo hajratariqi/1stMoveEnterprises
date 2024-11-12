@@ -37,8 +37,9 @@ const Footer = () => {
 
             </div>
         </div>
-        <div className='border-t p-7 text-center flex justify-around text-sm font-semibold'>
+        <div className='border-t p-7 text-center '>
             1stmoveenterprises - © 2024 All Rights Reserved
+            <p className='text-sm font-normal mt-2'>made by ahmedrAshraf team</p>
         </div>
     </div>
   )
