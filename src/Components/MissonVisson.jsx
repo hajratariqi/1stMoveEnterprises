@@ -1,8 +1,8 @@
 import React from 'react'
 import Grow from '../assets/grow.jpg'
-const MissonVisson = () => {
+const MissonVisson = ({id}) => {
   return (
-    <div className='container p-6 mx-auto my-20 flex gap-5 flex-col md:flex-row justify-between items-center'>
+    <div id={id} className='container p-6 mx-auto my-20 flex gap-5 flex-col md:flex-row justify-between items-center'>
       <div className='md:w-2/4'>
         <h1 className='font-merriweather text-center md:text-start font-bold  text-3xl md:text-4xl '>Vision & Mission</h1>
         <p className='my-4 text-gray-600 text-center md:text-start font-semibold font-poppins'>Keep your dreams alive. Understand to achieve anything requires faith and belief in yourself, vision, hard work, determination, and dedication. Remember all things are possible for those who believe</p>

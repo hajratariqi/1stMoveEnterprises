@@ -7,11 +7,11 @@ import MissonVisson from '../Components/MissonVisson'
 const Home = () => {
   return (
     <div>
-        <Banner/>
-        <About/>
-        <MissonVisson/>
-        <OurServices/>
-        <ContactUs/>
+        <Banner id='home'/>
+        <About id='about'/>
+        <MissonVisson id='misson'/>
+        <OurServices id='ourServices'/>
+        <ContactUs id='contactUs'/>
     </div>
   )
 }

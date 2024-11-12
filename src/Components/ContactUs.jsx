@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 
-const ContactUs = () => {
+const ContactUs = ({id}) => {
     const contactInfo = [
         {
             icon: <FaEnvelope/>,
@@ -26,7 +26,7 @@ const ContactUs = () => {
     ]
 
   return (
-<div className='my-20'>
+<div id={id} className='my-20'>
     <div className='container mx-auto p-6'>
             <h1 className='font-merriweather text-center font-bold  text-3xl md:text-4xl '>We'd love to hear from you </h1>
             <p className='text-gray-600 text-center max-w-xs mx-auto mt-4'>We appreciate your trust in us. Your satisfaction is our top priority.</p>

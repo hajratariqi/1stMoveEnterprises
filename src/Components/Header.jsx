@@ -20,11 +20,11 @@ const Header = () => {
       }, [open]);
 
     const navItems = [
-        { name: 'Home', path: '/' },
-        { name: 'Services', path: '/services' },
-        { name: 'Our Mission', path: '/blog' },
-        { name: 'Our Vision', path: '/press' },
-        { name: 'Contact Us', path: '/contactUs' }
+        { name: 'Home', path: '#home' },
+        { name: 'About', path: '#about' },
+        { name: 'Our Mission', path: '#misson' },
+        { name: 'Our Services', path: '#ourServices' },
+        { name: 'Contact Us', path: '#contactUs' }
       ];
   return (
     <div className='px-8 items-center w-full h-24 md:sticky top-0 bg-white z-50 border'>
@@ -40,7 +40,7 @@ const Header = () => {
         <ul className='hidden md:flex space-x-8 font-poppins text-lg'>
         {navItems.map(item => (
           <li key={item.path} className='font-medium'>
-            <Link to={item.path}  onClick={() => window.scrollTo(0, 0)} className={`py-2 transition-all ${location.pathname === item.path ? 'bg-black px-4 rounded-sm text-white' : 'hover:text-gray-500-500'}`}>
+            <Link smooth to={item.path}  onClick={() => window.scrollTo(0, 0)} className={`py-2 transition-all ${location.pathname === item.path ? 'bg-black px-4 rounded-sm text-white' : 'hover:text-gray-500-500'}`}>
               {item.name}
             </Link>
           </li>
@@ -54,7 +54,7 @@ const Header = () => {
                 <ul className='h-full mt-20 justify-center items-center text-center flex flex-col space-y-4 '>
                 {navItems.map(item => (
                     <li key={item.path} className='font-medium'>
-                        <Link to={item.path}  onClick={() => window.scrollTo(0, 0)} className={`py-2 transition-all ${location.pathname === item.path ? 'bg-black px-4 rounded-sm text-white' : 'hover:text-gray-500-500'}`}>
+                        <Link smooth to={item.path}  onClick={() => window.scrollTo(0, 0)} className={`py-2 transition-all ${location.pathname === item.path ? 'bg-black px-4 rounded-sm text-white' : 'hover:text-gray-500-500'}`}>
                         {item.name}
                         </Link>
                     </li>

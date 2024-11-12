@@ -2,9 +2,9 @@ import React from 'react'
 import Growth from '../assets/grow.jpg'
 import business from '../assets/business.jpg'
 
-const Banner = () => {
+const Banner = ({id}) => {
   return (
-    <div className='relative w-full'>
+    <div id={id} className='relative w-full'>
 
             <img src={business} alt="banner" className='w-full h-[70vh] object-cover'/>
             <div className='inset-0 absolute bg-black opacity-40 h-full'></div>
