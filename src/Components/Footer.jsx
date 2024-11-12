@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container mx-auto">
             <div className="flex md:flex-row flex-col  items-center mb-5 justify-between gap-10">
                 <div>
-                    <img src='https://framerusercontent.com/images/lg5HFPHgvIKQh0U35IwOnv5uqI.png' alt="logo" className='w-52' />
+                    <img src={Logo} alt="logo" className='w-52' />
                 </div>
                 <div className='flex flex-wrap gap-5 justify-center'>
                         <Link to='/home'>Home</Link>
