@@ -16,8 +16,6 @@ const Footer = () => {
                         <Link to='/about'>About</Link>
                         <Link to='/MissonVisson'>Misson & Vission</Link>
                         <Link to='/ourServices'>Our Services</Link>
-                        <Link to='/terms'>Terms</Link>
-                        <Link to='/privacy'>Privacy</Link>
                 </div>
 
             <div className='flex flex-wrap gap-5'>
@@ -37,9 +35,10 @@ const Footer = () => {
 
             </div>
         </div>
-        <div className='border-t p-7 text-center text-gray-600'>
-            1stmoveenterprises - © 2024 All Rights Reserved
-            {/* <p className='text-sm font-normal mt-2'>made by ahmedrAshraf team</p> */}
+        <div className='border-t p-7 text-center flex items-center justify-between'>
+            <Link to='https://hybridinnovations.vercel.app/'><p className='font-normal mt-2'>Developed by <span className='text-black font-medium'>Hybrid Innovations</span> </p></Link>
+            <p>1stmoveenterprises - © 2024 All Rights Reserved</p>
+            <p>Terms & condition</p>
         </div>
     </div>
   )
