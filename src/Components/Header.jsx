@@ -51,7 +51,7 @@ const Header = () => {
 
         {/* mobbile header */}
         {open && (
-            <div className='h-screen z-40 absolute top-24 left-0 right-0 bg-white'>
+            <div className={`h-screen z-40 absolute top-24 left-0 right-0 bg-white  transform ${open ? 'translate-x-0' : '-translate-x-full'} transition-transform duration-300 md:hidden z-10`}>
                 <ul className='h-full mt-20  items-center text-center flex flex-col space-y-4 '>
                 {navItems.map(item => (
                     <li key={item.path} className='font-medium'>
