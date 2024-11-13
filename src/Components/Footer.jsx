@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div>
         <div className="container mx-auto">
-            <div className="flex md:flex-row flex-col  items-center mb-5 justify-between gap-10">
+            <div className="flex md:flex-row flex-col  items-center mb-5 justify-between gap-10 p-6">
                 <div>
                     <img src={Logo} alt="logo" className='w-52' />
                 </div>
@@ -35,7 +35,7 @@ const Footer = () => {
 
             </div>
         </div>
-        <div className='border-t p-7 text-center flex items-center justify-between'>
+        <div className='border-t p-7 text-center flex items-center md:justify-between gap-4 justify-center flex-wrap md:text-normal text-sm'>
             <Link to='https://hybridinnovations.vercel.app/' target='_blank'><p className='font-normal mt-2'>Developed by <span className='text-black font-medium'>Hybrid Innovations</span> </p></Link>
             <p>1stmoveenterprises - © 2024 All Rights Reserved</p>
             <p>Terms & condition</p>
