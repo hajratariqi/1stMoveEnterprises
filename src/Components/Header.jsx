@@ -8,16 +8,17 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Header = () => {
     const [open, setOpen] = useState(false);
 
-    // useEffect(() => {
-    //     const handleScroll = () => {
-    //       if (open) {
-    //         setOpen(false);
-    //       }};
-    //     window.addEventListener('scroll', handleScroll);
-    //     return () => {
-    //       window.removeEventListener('scroll', handleScroll);
-    //     };
-    //   }, [open]);
+    useEffect(() => {
+      const handleScroll = () => {
+        if (open) {
+          setOpen(false);
+        }};
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, [open]);
+
 
     const navItems = [
         { name: 'Home', path: '#home' },
