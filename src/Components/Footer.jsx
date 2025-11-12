@@ -37,7 +37,7 @@ const Footer = () => {
         </div>
         <div className='border-t p-7 text-center flex items-center md:justify-between gap-4 justify-center flex-wrap md:text-normal text-sm'>
             <Link to='https://hybridinnovations.vercel.app/' target='_blank'><p className='font-normal mt-2'>Developed by <span className='text-black font-medium'>Hybrid Innovations</span> </p></Link>
-            <p>1stmoveenterprises - © 2024 All Rights Reserved</p>
+            <p>1stmoveenterprises - © {new Date().getFullYear()} All Rights Reserved</p>
             <p>Terms & condition</p>
         </div>
     </div>
