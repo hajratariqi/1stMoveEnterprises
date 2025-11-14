@@ -1,5 +1,4 @@
 import React from 'react'
-import Growth from '../assets/grow.jpg'
 import business from '../assets/business.jpg'
 
 const Banner = ({id}) => {

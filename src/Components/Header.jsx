@@ -2,7 +2,6 @@ import Logo from '../assets/Logo.png';
 import { IoIosMenu } from "react-icons/io";
 import { IoCloseSharp } from "react-icons/io5";
 import React, { useState, useEffect} from 'react';
-import { useLocation } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Header = () => {

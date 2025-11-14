@@ -4,7 +4,7 @@ const OurServices = ({id}) => {
   return (
          <div id={id} className='container p-6 mx-auto my-20 flex gap-5 flex-col-reverse md:flex-row justify-between items-center'>
         <div className='md:w-2/4 h-[600px]'>
-            <img src="https://www.captivatingthinking.com/wp-content/uploads/2023/07/iStock-1454531939-1024x612.jpg" alt="about image" className='rounded-md h-full w-full object-cover' />
+            <img src="https://www.captivatingthinking.com/wp-content/uploads/2023/07/iStock-1454531939-1024x612.jpg" alt="services" className='rounded-md h-full w-full object-cover' />
         </div>
 
         <div className='md:w-2/5'>

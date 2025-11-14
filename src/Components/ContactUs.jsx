@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from "react-icons/fa";
 
 
@@ -39,7 +38,7 @@ const ContactUs = ({id}) => {
                     <input type="email" name="email" className='block border w-full mt-5 p-3 bg-white placeholder:text-black rounded-xl' placeholder='Your Email'/>
                     <textarea name="yourMessage" className='block border w-full mt-5 p-3 bg-white rounded-xl'>Your Message</textarea>
                     <button className="w-full p-3 bg-black text-white mt-5 rounded-xl">
-                        <a href="mailto:1stmoveenterprises@gmail.com" target="_blank" className="block w-full text-center">Send Message</a>
+                        <a href="mailto:1stmoveenterprises@gmail.com" target="_blank" rel="noreferrer" className="block w-full text-center">Send Message</a>
                     </button>
 
                 </div>
@@ -50,7 +49,7 @@ const ContactUs = ({id}) => {
                     <div key={index} className='shadow-md rounded-md py-3 p-2 flex gap-5 items-center mt-5'>
                         <div className='p-3 bg-black text-xl text-white rounded-full'>{info.icon}</div>
                         <div>
-                            <a href={info.path} target='_black'>
+                            <a href={info.path} target="_blank" rel="noreferrer">
                                 <h3 className='font-medium'>{info.contactName}</h3>
                                 <p>{info.link}</p>
                             </a>

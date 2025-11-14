@@ -4,7 +4,7 @@ const About = ({id}) => {
   return (
     <div id={id} className='container p-6 mx-auto my-20 flex gap-5 flex-col-reverse md:flex-row justify-between items-center'>
         <div className='md:w-2/4'>
-            <img src="https://d1hdtc0tbqeghx.cloudfront.net/wp-content/uploads/2024/03/01115727/Best-About-Us-Page-Examples.jpg" alt="about image" className='rounded-md' />
+            <img src="https://d1hdtc0tbqeghx.cloudfront.net/wp-content/uploads/2024/03/01115727/Best-About-Us-Page-Examples.jpg" alt="about" className='rounded-md' />
         </div>
 
         <div className='md:w-2/5'>
